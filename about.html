@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolinic Website</title>
+
+    <!-- css Links -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/LineAwesome-FontAwesome.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/jquery.lineProgressbar.css">
+    <link rel="stylesheet" href="assets/css/slick&slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+    <!-- Favicon -->
+    <link rel=icon href="assets/img/favicon.png" sizes="32x32">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="preloader">
+    <div class="main">
+     <img src="assets/img/home/kgn logo.png" alt="" width="230" height="120">
+     <svg id="rotatingText" viewBox="0 0 200 200" width="250" height="250">
+       <defs>
+         <path id="circle" d="M 100, 100
+                 m -75, 0
+                 a 75, 75 0 1, 0 150, 0
+                 a 75, 75 0 1, 0 -150, 0
+                 ">
+         </path>
+       </defs>
+       <text width="400">
+         <textPath alignment-baseline="top" xlink:href="#circle" class="text">
+           KGN Hospitan And Research Center
+         </textPath>
+       </text>
+     </svg>
+   </div>
+   </div>
+    <header class="header-area">
+        <div class="header-top-area">
+            <div class="container">
+                <div class="header-details">
+                    <div class="single-header">
+                        <div class="header-logo">
+                            <a href="index.html"> <img src="assets/img/home/kgn logo.png" alt=""> </a>
+                        </div>
+                    </div>
+                    <div class="single-header">
+                        <div class="header-address">
+                            <div class="header-icon">
+                                <i class="las la-map-marker-alt"></i>
+                            </div>
+                            <div class="header-address-content">
+                                <h6 class="address-title"> Location </h6>
+                                <span class="address-para">  Near Sabalpura Power House<br>Fatehpur Road, NH52, Sikar</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-header">
+                        <div class="header-address">
+                            <div class="header-icon">
+                                <i class="las la-envelope"></i>
+                            </div>
+                            <div class="header-address-content">
+                                <h6 class="address-title"> Email Address </h6>
+                                <span class="address-para"> <a href="javascript:void(0)">  kgnhospitalsikar@gmailcom </a> </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-header">
+                        <div class="header-button">
+                            <a href="javascript:void(0)">Helpline - 01572-297726 </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom d-none d-lg-block">
+            <div class="container">
+                <div class="menu-area">
+                    <ul class="menu-list">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="neurology.html" href="#0">SERVICE </a>
+                            
+                        </li>
+                        <li><a href="doctor.html">DOCTOR</a>
+                        
+                        <li><a href="career-details.html" href="#0">CAREER</a>
+                          
+                        </li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <div class="search-open">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-area">
+            <div class="container p-0">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/home/kgn logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="main-menu">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li><a href="index.html">HOME</a></li>
+                                    <li><a href="about.html">ABOUT</a></li>
+                                    <li><a href="neurology.html" href="#0">SERVICE </a>
+                                        
+                                    </li>
+                                    <li><a href="doctor.html">DOCTOR</a>
+                                        <li><a href="career-details.html" href="#0">CAREER</a>
+
+                                    <li><a href="contact.html">CONTACT</a></li>
+                                </ul>
+                            </nav>
+                            <div class="search-open">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- SearcBar -->
+    <div class="search-bar">
+        <form class="menu-search-form" action="#">
+            <div class="search-close"> <i class="las la-times"></i> </div>
+            <input class="item-search" type="text" placeholder="Search Here.....">
+        </form>
+        <div class="close-toggle-body"></div>
+    </div>
+    <!-- End SearchBar -->
+    <!-- =====>> End Header-area <<===== 
+    =========================== -->
+    <!-- =====>> Banner Area Starts <<===== 
+    =========================== -->
+    <section class="banner-area banner-area-inner" data-background="./assets/img/about img/banner.jpg">
+        <div class="container">
+            <div class="banner-contents">
+                <h2 class="banner-title"> About Us </h2>
+            </div>
+        </div>
+        <div class="banner-bottom">
+            <div class="container">
+                <ul class="banner-list">
+                    <li> <i class="las la-home"></i> <a href="index.html"> HOME </a> </li>
+                    <li> <i class="las la-angle-double-right"></i> ABOUT </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- =====>> Banner Area End <<===== 
+    =========================== -->
+    <!-- =====>> Service Area Starts <<===== 
+    =========================== -->
+    <section class="about-service-area pt-120 pb-120">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="section-heading"> We Provide Best Services For Good Health </h2>
+                <p class="section-para">It has an experienced team of doctors, state-of-the-art infrastructure, best of advanced medical technology and unwavering compassion that has made KGN Hospital provide top-quality and patient-focused healthcare services </p>
+            </div>
+            <div class="row mt-3 mt-lg-4 align-items-center">
+                <div class="col-lg-6 mt-4 wow animated slideInLeft" data-wow-delay=".3s">
+                    <div class="about-service-slider">
+                        <div class="single-about-service">
+                            <img src="assets/img/about img/services.jpg" alt="">
+                        </div>
+                        <div class="single-about-service">
+                            <img src="assets/img/about img/reliance_pathology.jpg" alt="">
+                        </div>
+                        <div class="single-about-service">
+                            <img src="assets/img/about img/reliance_surgery.jpg" alt="">
+                        </div>
+                        <div class="single-about-service">
+                            <img src="assets/img/about img/reliance_checkup.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="about-contents">
+                        <h3 class="about-service-headings">Benefits of Services</h3>
+                        <div class="about-service-border"></div>
+                        <p class="common-para"> KGN Hospital have a wide range of medical specialists, including doctors, surgeons, nurses, and support staff who are highly trained in various fields of medicine.  </p>
+                        <ul class="about-service-list">
+                            <li> <i class="las la-check"></i> Liver Function Tests. The Liver Function Tests (LFT)ed </li>
+                            <li> <i class="las la-check"></i> Advanced Equipment and Technology </li>
+                            <li> <i class="las la-check"></i> TSH (Thyroid Stimulating Hormone) Quantification Urinalysis. </li>
+                            <li> <i class="las la-check"></i> INR (International Normalized Ratio) </li>
+                            <li> <i class="las la-check"></i> Emergency Care </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="pricing-area bg--section pt-120 pb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2 class="section-heading">Choose Health Checkup Plan </h2>
+                        <div class="section-border"></div>
+                        <p class="section-para"> KGN Hospital offers a wide range of health check up to cover all age groups and all the sexes.These packages have been very thoughtfully designed to target a specific section of the community.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 mt-lg-4">
+                <div class="col-lg-4 col-md-6 mt-4 wow slideInDown" data-wow-delay=".2s">
+                    <div class="single-pricing">
+                        <div class="pricing-top">
+                            <span class="price-title"> Basic </span>
+                            <h2 class="pricing-price"> <sup>Rs</sup> 1750 <sub></sub> </h2>
+                        </div>
+                        <ul class="pricing-list">
+                            <li> <i class="las la-check"></i> Consultation-Dentist </li>
+                            <li> <i class="las la-check"></i> USG Abdoben( Screening). </li>
+                            <li> <i class="las la-check"></i> CBC </li>
+                            <li> <i class="las la-check"></i> Urine Routine </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn--custom btn-outline--body btn--capsole"> BUY NOW </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 wow slideInLeft" data-wow-delay=".2s">
+                    <div class="single-pricing">
+                        <div class="pricing-top">
+                            <span class="price-title"> Diabities Health Checkup </span>
+                            <h2 class="pricing-price"> <sup>Rs</sup> 2000 <sub></sub> </h2>
+                        </div>
+                        <ul class="pricing-list">
+                            <li> <i class="las la-check"></i> Lipid Profile (Coronary Risk Profile) </li>
+                            <li> <i class="las la-check"></i> Electrocardiograph by (ECG) 12 Lead </li>
+                            <li> <i class="las la-check"></i> Complete Hemogram (CBC)</li>
+                            <li> <i class="las la-check"></i> Glycosylated Haemoglobi</li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn--custom btn-outline--body btn--capsole"> BUY NOW </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 wow slideInUp" data-wow-delay=".3s">
+                    <div class="single-pricing">
+                        <div class="pricing-top">
+                            <span class="price-title"> Executive Package </span>
+                            <h2 class="pricing-price"> <sup>Rs</sup> 2200 <sub></sub> </h2>
+                        </div>
+                        <ul class="pricing-list">
+                            <li> <i class="las la-check"></i>  Complete Blood Count (CBC) </li>
+                            <li> <i class="las la-check"></i> Post-Prandial Blood Sugar. </li>
+                            <li> <i class="las la-check"></i> Blood Urea/ BUN </li>
+                            <li> <i class="las la-check"></i> Serum Creatinine </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn--custom btn-outline--body btn--capsole"> BUY NOW </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-4 wow slideInUp" data-wow-delay=".3s">
+                    <div class="single-pricing">
+                        <div class="pricing-top">
+                            <span class="price-title"> Senior Citizen Health</span>
+                            <h2 class="pricing-price"> <sup>Rs</sup> 3200 <sub></sub> </h2>
+                        </div>
+                        <ul class="pricing-list">
+                            <li> <i class="las la-check"></i>  USG -Abdomen (Screening) </li>
+                            <li> <i class="las la-check"></i> BMD </li>
+                            <li> <i class="las la-check"></i> PSA/Pap Smear </li>
+                            <li> <i class="las la-check"></i> Blood Urea/ BUN </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn--custom btn-outline--body btn--capsole"> BUY NOW </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-4 wow slideInUp" data-wow-delay=".3s">
+                    <div class="single-pricing">
+                        <div class="pricing-top">
+                            <span class="price-title"> Woment Wellness under 40 years </span>
+                            <h2 class="pricing-price"> <sup>Rs</sup> 3200 <sub></sub> </h2>
+                        </div>
+                        <ul class="pricing-list">
+                            <li> <i class="las la-check"></i> Consultation-gynecologist </li>
+                            <li> <i class="las la-check"></i> Consultation-Dietician </li>
+                            <li> <i class="las la-check"></i> Consultation-Dentist </li>
+                            <li> <i class="las la-check"></i> ABORh </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn--custom btn-outline--body btn--capsole"> BUY NOW </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-4 wow slideInUp" data-wow-delay=".3s">
+                    <div class="single-pricing">
+                        <div class="pricing-top">
+                            <span class="price-title"> Diabities comprehensive Package </span>
+                            <h2 class="pricing-price"> <sup>Rs</sup> 4000 <sub></sub> </h2>
+                        </div>
+                        <ul class="pricing-list">
+                            <li> <i class="las la-check"></i>  Glucose PP </li>
+                            <li> <i class="las la-check"></i>potassium </li>
+                            <li> <i class="las la-check"></i> potassium </li>
+                            <li> <i class="las la-check"></i> Usg whole abdomen </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn--custom btn-outline--body btn--capsole"> BUY NOW </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 wow slideInUp" data-wow-delay=".3s">
+                    <div class="single-pricing">
+                        <div class="pricing-top">
+                            <span class="price-title">Complete Body Male</span>
+                            <h2 class="pricing-price"> <sup>Rs</sup> 7250 <sub></sub> </h2>
+                        </div>
+                        <ul class="pricing-list">
+                            <li> <i class="las la-check"></i> S.Calcium </li>
+                            <li> <i class="las la-check"></i> S.Bilirubin </li>
+                            <li> <i class="las la-check"></i>Uric Acid </li>
+                            <li> <i class="las la-check"></i> Alkaline Phoshatase </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn--custom btn-outline--body btn--capsole"> BUY NOW </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 wow slideInUp" data-wow-delay=".3s">
+                    <div class="single-pricing">
+                        <div class="pricing-top">
+                            <span class="price-title">Complete Body Female</span>
+                            <h2 class="pricing-price"> <sup>Rs</sup> 7250 <sub></sub> </h2>
+                        </div>
+                        <ul class="pricing-list">
+                            <li> <i class="las la-check"></i> Blood Group</li>
+                            <li> <i class="las la-check"></i> Urine Microalbumin </li>
+                            <li> <i class="las la-check"></i>Fasting Blood Sugar</li>
+                            <li> <i class="las la-check"></i> Alkaline Phoshatase </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn--custom btn-outline--body btn--capsole"> BUY NOW </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =====>> Pricing Area End <<===== 
+    =========================== -->
+    <!-- =====>> Experience Area Starts <<===== 
+    =========================== -->
+    <section class="experience-area pt-100 pb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-12">
+                    <div class="row justify-content-lg-center">
+                        <div class="col-xl-6 col-lg-3 col-sm-6 mt-4 wow animated slideInDown" data-wow-delay=".3s">
+                            <div class="experience-images">
+                                <img src="assets/img/about img/reliance_checkup.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-3 col-sm-6 mt-4 wow animated slideInDown" data-wow-delay=".2s">
+                            <div class="experience-images">
+                                <img src="assets/img/about img/reliance_doctor.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-3 col-sm-6 mt-4 wow animated slideInUp" data-wow-delay=".2s">
+                            <div class="experience-images">
+                                <img src="assets/img/about img/reliance_pathology.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-3 col-sm-6 mt-4 wow animated slideInUp" data-wow-delay=".3s">
+                            <div class="experience-images">
+                                <img src="assets/img/about img/reliance_surgery.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-12 mt-5 mt-xl-4">
+                    <div class="experience-wrapper">
+                        <div class="section-title text-left">
+                            <h2 class="section-heading"> Speciality of our hospital </h2>
+                            <div class="section-border"></div>
+                            <p class="section-para"> To deliver quality conscious and technology driven contemporary healthcare across segments.In an environment that is oriented towards patients and staff needs with all endeavours to ensure continuous education and training for a multi-faceted personal and linear organizational growth.  </p>
+                        </div>
+                        <div class="experience-line-progress">
+                            <div class="single-progress">
+                                <h5 class="progress-title"> Heart Surgery </h5>
+                                <div class="line-progress line-progress1"></div>
+                            </div>
+                            <div class="single-progress">
+                                <h5 class="progress-title"> Laborate Analysis </h5>
+                                <div class="line-progress line-progress2"></div>
+                            </div>
+                            <div class="single-progress">
+                                <h5 class="progress-title"> Customer Support </h5>
+                                <div class="line-progress line-progress3"></div>
+                            </div>
+                            <div class="single-progress">
+                                <h5 class="progress-title"> Medical Research </h5>
+                                <div class="line-progress line-progress4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =====>> Experience Area End <<===== 
+    =========================== -->
+    <!-- =====>> Newsletter Area Starts <<===== 
+    =========================== -->
+    <!-- <section class="newsletter-area bg-base--section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="newsletter-wrapper">
+                        <h2 class="newsletter-title"> Singup for Our Newsletter </h2>
+                        <form class="newsletter-form" action="#">
+                            <input class="form--control form-control" type="text" name="email" placeholder="Enter Your Email">
+                            <button type="submit"> <i class="lab la-telegram-plane"></i> </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- =====>> Newsletter Area End <<===== 
+    =========================== -->
+    <!-- =====>> BLog Area Starts <<===== 
+    =========================== -->
+    <!-- <section class="blog-area pt-120 pb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2 class="section-heading"> Latest News & Tips </h2>
+                        <div class="section-border"></div>
+                        <p class="section-para"> Condimentum rutrum placerat egestas condimentum mi eros. Eleifend cras quirntum Feugiat elit placerat. Diam tempor malesuada. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 mt-lg-4">
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="single-blog">
+                        <a href="blog-details.html" class="blog-image">
+                            <img src="assets/img/home/blog1.jpg" alt="">
+                        </a>
+                        <span class="blog-dates"> 24 March 2020 </span>
+                        <div class="blog-contents">
+                            <ul class="blog-tags">
+                                <li>
+                                    <a href="javascript:void(0)"> By Admin </a></li>
+                                <li>
+                                    <a href="javascript:void(0)"> Doctor , Clinic </a></li>
+                            </ul>
+                            <h4 class="common-title"> <a href="blog-details.html"> Medical and Love Have 4 Things In Common </a> </h4>
+                            <p class="common-para"> consequat vulputate eget metumpeng magna commodo purus etiam. </p>
+                            <a href="javascript:void(0)" class="btn--custom btn-outline--body btn--capsole"> Read More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="single-blog">
+                        <a href="blog-details.html" class="blog-image">
+                            <img src="assets/img/home/blog2.jpg" alt="">
+                        </a>
+                        <span class="blog-dates"> 28 March 2020 </span>
+                        <div class="blog-contents">
+                            <ul class="blog-tags">
+                                <li>
+                                    <a href="javascript:void(0)"> By Admin </a></li>
+                                <li>
+                                    <a href="javascript:void(0)"> Health , Medical </a></li>
+                            </ul>
+                            <h4 class="common-title"> <a href="blog-details.html"> 22 Tips To Start Building A Medical </a> </h4>
+                            <p class="common-para"> consequat vulputate eget metumpeng magna commodo purus etiam. </p>
+                            <a href="javascript:void(0)" class="btn--custom btn-outline--body btn--capsole"> Read More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="single-blog">
+                        <a href="blog-details.html" class="blog-image">
+                            <img src="assets/img/home/blog3.jpg" alt="">
+                        </a>
+                        <span class="blog-dates"> 30 March 2020 </span>
+                        <div class="blog-contents">
+                            <ul class="blog-tags">
+                                <li>
+                                    <a href="javascript:void(0)"> By Admin </a></li>
+                                <li>
+                                    <a href="javascript:void(0)"> Care , Surgery </a></li>
+                            </ul>
+                            <h4 class="common-title"> <a href="blog-details.html"> Being A Star In You dustry Is A Matter </a> </h4>
+                            <p class="common-para"> consequat vulputate eget metumpeng magna commodo purus etiam. </p>
+                            <a href="javascript:void(0)" class="btn--custom btn-outline--body btn--capsole"> Read More </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     =====>> BLog Area End <<===== 
+    =========================== -->
+    <!-- =====>> Brands Area Starts <<===== 
+    =========================== -->
+    <!-- <div class="brands-area">
+        <div class="container">
+            <div class="brands-wrapper">
+                <div class="brands-slider">
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands1.png" alt=""> </a>
+                    </div>
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands2.png" alt=""> </a>
+                    </div>
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands3.png" alt=""> </a>
+                    </div>
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands4.png" alt=""> </a>
+                    </div>
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands5.png" alt=""> </a>
+                    </div>
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands3.png" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+    <!-- =====>> Brands Area End <<===== 
+    =========================== -->
+    <!-- =====>> Footer Area Starts <<===== 
+    =========================== -->
+    <footer class="footer-area bg--footer">
+        <div class="footer-top pt-100 pb-120">
+            <div class="container">
+                <div class="row justify-content-between justify-content-lg-start">
+                    <div class="col-lg-4 col-md-7 col-sm-8 mt-4">
+                        <div class="single-footer">
+                            <h4 class="common-title"> About Company </h4>
+                            <div class="about-contents">
+                                <p class="common-para"> Penatibus in, litora dictumst suspendamuanim egestas, libero mollis molestiae sit et sem nisl inquam vitae euismoellentesque.nd this is over head. </p>
+                                <ul class="footer-socials">
+                                    <li>
+                                        <a href="javascript:void(0)"> <i class="lab la-facebook-f"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)"> <i class="lab la-twitter"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)"> <i class="lab la-instagram"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)"> <i class="lab la-linkedin-in"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 mt-4">
+                        <div class="single-footer">
+                            <h4 class="common-title"> Quick Links </h4>
+                            <div class="about-contents">
+                                <ul class="footer-list">
+                                    <li><a href="about.html"> About </a></li>
+                                    <li><a href="neurology.html"> Our Services </a></li>
+                                    <li><a href="mission-vission.html"> Our Mission </a></li>
+                                    <li><a href="doctor.html"> Find Doctor </a></li>
+                                    <li><a href="contact.html"> Appoinment </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 mt-4">
+                        <div class="single-footer">
+                            <h4 class="common-title"> Our Services </h4>
+                            <div class="about-contents">
+                                <ul class="footer-list">
+                                    <li><a href="cardiology.html"> Cardiology </a></li>
+                                    <li><a href="neurology.html"> Neurology </a></li>
+                                    <li><a href="surgery.html"> Surgery </a></li>
+                                    <li><a href="Anaesthesia.html"> Anaesthesia</a></li>
+                                    <li><a href="nephrology.html"> Nephrology </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 mt-4">
+                        <div class="single-footer">
+                            <h4 class="common-title"> Terms </h4>
+                            <div class="about-contents">
+                                <ul class="footer-list">
+                                    <li><a href="javascript:void(0)"> Announcement </a></li>
+                                    <li><a href="javascript:void(0)"> Privacy Policy </a></li>
+                                    <li><a href="javascript:void(0)"> Term Of Service </a></li>
+                                    <!-- <li><a href="javascript:void(0)"> Refund Policy </a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 mt-4">
+                        <div class="single-footer">
+                            <h4 class="common-title"> Support </h4>
+                            <div class="about-contents">
+                                <ul class="footer-list">
+                                    <li><a href="javascript:void(0)"> F.A.Q </a></li>
+                                    <li><a href="javascript:void(0)"> Get Support </a></li>
+                                    <li><a href="javascript:void(0)"> Our Forum </a></li>
+                                    <li><a href="contact.html"> Contact Us </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
+                        <p class="copyright-text">Copyright © 2023. KGN Hospital. All rights reserved</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mt-4 mt-md-0 text-right">
+                        <p class="copyright-text">
+                         <a href="https://wingstarnarketing.com/" >Developed by Star Marketing</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- =====>> Footer Area End <<===== 
+    =========================== -->
+    <!-- =====>> Scroll top <<===== 
+    =========================== -->
+    <a href="#" class="scroll-top show" id="scroll-top">
+        <i class="arrow-top las la-angle-up"></i>
+        <i class="arrow-bottom las la-angle-double-up"></i>
+    </a>
+
+    <!-- =====>> End Scroll top <<===== 
+    =========================== -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/odometer.js"></script>
+    <script src="assets/js/viewport.jquery.js"></script>
+    <script src="assets/js/paroller.js"></script>
+    <script src="assets/js/jquery.lineProgressbar.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolinic Template</title>
+
+    <!-- css Links -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/LineAwesome-FontAwesome.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/jquery.lineProgressbar.css">
+    <link rel="stylesheet" href="assets/css/slick&slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Favicon -->
+    <link rel=icon href="assets/img/favicon.png" sizes="32x32">
+
+
+    <link rel=icon href="assets/img/favicon.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="preloader">
+    <div class="main">
+     <img src="assets/img/home/kgn logo.png" alt="" width="230" height="120">
+     <svg id="rotatingText" viewBox="0 0 200 200" width="250" height="250">
+       <defs>
+         <path id="circle" d="M 100, 100
+                 m -75, 0
+                 a 75, 75 0 1, 0 150, 0
+                 a 75, 75 0 1, 0 -150, 0
+                 ">
+         </path>
+       </defs>
+       <text width="400">
+         <textPath alignment-baseline="top" xlink:href="#circle" class="text">
+           KGN Hospitan And Research Center
+         </textPath>
+       </text>
+     </svg>
+   </div>
+   </div>
+    <header class="header-area">
+        <div class="header-top-area">
+            <div class="container">
+                <div class="header-details">
+                    <div class="single-header">
+                        <div class="header-logo">
+                            <a href="index.html"> <img src="assets/img/home/kgn logo.png" alt=""> </a>
+                        </div>
+                    </div>
+                    <div class="single-header">
+                        <div class="header-address">
+                            <div class="header-icon">
+                                <i class="las la-map-marker-alt"></i>
+                            </div>
+                            <div class="header-address-content">
+                                <h6 class="address-title"> Location </h6>
+                                <span class="address-para">  Near Sabalpura Power House<br>Fatehpur Road, NH52, Sikar </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-header">
+                        <div class="header-address">
+                            <div class="header-icon">
+                                <i class="las la-envelope"></i>
+                            </div>
+                            <div class="header-address-content">
+                                <h6 class="address-title"> Email Address </h6>
+                                <span class="address-para"> <a href="javascript:void(0)">kgnhospitalsikar@gmailcom </a> </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-header">
+                        <div class="header-button">
+                            <a href="javascript:void(0)">   Helpline - 01572-297726 </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom d-none d-lg-block">
+            <div class="container">
+                <div class="menu-area">
+                    <ul class="menu-list">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="neurology.html" href="#0">SERVICE </a>
+                           
+                        </li>
+                        <li><a href="doctor.html">DOCTOR</a>
+                        
+                            <li><a href="career-details.html" href="#0">CAREER</a>
+
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <div class="search-open">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-area">
+            <div class="container p-0">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/home/kgn logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="main-menu">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li><a href="index.html">HOME</a></li>
+                                    <li><a href="about.html">ABOUT</a></li>
+                                    <li><a href="neurology.html" href="#0">SERVICE </a>
+
+                                    </li>
+                                    <li><a href="doctor.html">DOCTOR</a>
+
+                                    
+                                        <li><a href="career-details.html" href="#0">CAREER</a>
+
+                                    <li><a href="contact.html">CONTACT</a></li>
+                                </ul>
+                            </nav>
+                            <div class="search-open">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- SearcBar -->
+    <div class="search-bar">
+        <form class="menu-search-form" action="#">
+            <div class="search-close"> <i class="las la-times"></i> </div>
+            <input class="item-search" type="text" placeholder="Search Here.....">
+        </form>
+        <div class="close-toggle-body"></div>
+    </div>
+    <!-- End SearchBar -->
+    <!-- =====>> End Header-area <<===== 
+    =========================== -->
+    <!-- =====>> Banner Area Starts <<===== 
+    =========================== -->
+    <section class="banner-area banner-area-inner" data-background="./assets/img/about/about-banner.jpg">
+        <div class="container">
+            <div class="banner-contents">
+                <h2 class="banner-title">Careers Details </h2>
+            </div>
+        </div>
+        <div class="banner-bottom">
+            <div class="container">
+                <ul class="banner-list">
+                    <li> <i class="las la-home"></i> <a href="index.html"> HOME </a> </li>
+                    <li> <i class="las la-angle-double-right"></i> <a href="doctor.html"> Career </a> </li>
+                    <li> <i class="las la-angle-double-right"></i> Careers Details </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="site-main">
+
+        <section class="ttm-row bg-layer bg-layer-equal-height res-991-p-0 clearfix">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <div class="ttm-col-bgcolor-yes ttm-bg ttm-bgcolor-grey spacing-8">
+                            <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
+
+                            <div id="ttm-contactform" class="ttm-contactform wrap-form style2 res-991-mt_15 clearfix">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Specialization *</label>
+                                        <span class="text-input">
+                                            <select name="ctl00$body$ddl_spec" id="body_ddl_spec" placeholder="Your Name" required="required">
+	<option value="--Select--">--Select--</option>
+	<option value="Consultants">Consultants</option>
+	<option value="Junior Consultants">Junior Consultants</option>
+	<option value="Resident Doctors">Resident Doctors</option>
+	<option value="Para Medical Staff">Para Medical Staff</option>
+	<option value="Non Medical Staff">Non Medical Staff</option>
+	<option value="HR">HR</option>
+	<option value="Front Office">Front Office</option>
+	<option value="Medical Sales Person">Medical Sales Person</option>
+	<option value="House Keeping &amp; Supporting Staff">House Keeping &amp; Supporting Staff</option>
+	<option value="Other">Other</option>
+
+</select>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Applied For *</label>
+                                        <span class="text-input">
+                                            <input name="ctl00$body$txt_appl" type="text" id="body_txt_appl" placeholder="Applied For" required="required" />
+                                        </span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Full Name *</label>
+                                        <span class="text-input">
+                                            <input name="ctl00$body$txtname" type="text" id="body_txtname" placeholder="Your Name" required="required" />
+                                        </span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Gender *</label>
+                                        <span class="text-input">
+                                            <select name="ctl00$body$ddl_gender" id="body_ddl_gender" required="required">
+	<option value="--Select Gender--">--Select Gender--</option>
+	<option value="Male">Male</option>
+	<option value="Female">Female</option>
+
+</select>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Experience *</label>
+                                        <span class="text-input">
+                                            <input name="ctl00$body$txt_exp" type="text" id="body_txt_exp" placeholder="Experience" required="required" /></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Highest Qualification *</label>
+                                        <span class="text-input">
+                                            <input name="ctl00$body$txt_ql" type="text" id="body_txt_ql" placeholder="Qualification" required="required" />
+                                        </span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Your email *</label>
+                                        <span class="text-input">
+                                            <input name="ctl00$body$txtmail" type="text" id="body_txtmail" placeholder="Your Email ID" required="required" /></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Your Mobile *</label>
+                                        <span class="text-input">
+                                            <input name="ctl00$body$txtphone" type="text" id="body_txtphone" placeholder="Your Mobile No" required="required" />
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label>Address *</label>
+                                        <span class="text-input">
+                                            <textarea name="ctl00$body$txtadd" rows="2" cols="20" id="body_txtadd" Placeholder="Address" required="required">
+</textarea></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Message *</label>
+                                        <span class="text-input">
+                                            <textarea name="ctl00$body$txtmsg" rows="2" cols="20" id="body_txtmsg" Placeholder="Message" required="required">
+</textarea></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Upload Resume *</label>
+                                        <span class="text-input">
+                                            <input type="file" name="ctl00$body$fu" id="body_fu" /></span>
+                                    </div>
+                                </div>
+                                <input type="submit" name="ctl00$body$btnsub" value="Send Message" id="body_btnsub" class="submit_field ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- intro-section end -->
+
+        <div class="map-wrapper">
+            <div id="map_canvas"></div>
+        </div>
+
+
+    </div>
+    
+    <!-- =====>> Banner Area End <<===== 
+    =========================== -->
+    <!-- =====>> Doctors Area Starts <<===== 
+    =========================== -->
+    <!-- <section class="doctors-details-area pt-120 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-8">
+                    <div class="doctor-details-left">
+                        <div class="single-doctor-details">
+                            <div class="doctor-img-flex">
+                                <div class="left-images">
+                                    <img src="assets/img/doctor-details/details.jpg" alt="">
+                                </div>
+                                <div class="details-contents">
+                                    <h4 class="common-title fs-22"> Dr: Shipon Kumar </h4>
+                                    <span class="doctors-title"> Gastoroenterology , MBBS </span>
+                                    <p class="common-para"> Diam cum eu urna, nunc duis pulvinafusce elit mollisnulla soluta aliquam adipisicing vehicula ac. Turpis ipsum dolor
+                                    </p>
+                                    <a href="javascript:void(0)" class="btn--custom btn--base btn--capsole"> APPOINMENT </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-doctor-details">
+                            <div class="single-contents">
+                                <div class="contents-para-left">
+                                    <h6 class="contents-para"> About Me </h6>
+                                </div>
+                                <div class="contents-para-right">
+                                    <p class="common-para"> Contrary to popular belief, Lorem Ipsum is n sxhas roots in a piece of classical Latin literature from 4making it over 2000 years old. </p>
+                                </div>
+                            </div>
+                            <div class="single-contents">
+                                <div class="contents-para-left">
+                                    <h6 class="contents-para"> Age </h6>
+                                </div>
+                                <div class="contents-para-right">
+                                    <p class="common-para"> 28 Years </p>
+                                </div>
+                            </div>
+                            <div class="single-contents">
+                                <div class="contents-para-left">
+                                    <h6 class="contents-para"> Work Experience </h6>
+                                </div>
+                                <div class="contents-para-right">
+                                    <ul class="details-content-list">
+                                        <li> There are many variations of passages of Lorem available, but the majority </li>
+                                        <li> Finibus onorum et alorum" by icero classical lite rature, discovered </li>
+                                        <li> Various versions have evolved over the years so mes by accident, sometimes on purpose </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single-contents">
+                                <div class="contents-para-left">
+                                    <h6 class="contents-para"> Education </h6>
+                                </div>
+                                <div class="contents-para-right">
+                                    <ul class="details-content-list">
+                                        <li> MBBS , FCES in Gastoroenterology </li>
+                                        <li> PHD in Medicine </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single-contents">
+                                <div class="contents-para-left">
+                                    <h6 class="contents-para"> Additional Information </h6>
+                                </div>
+                                <div class="contents-para-right">
+                                    <ul class="details-content-list">
+                                        <li> Games , Movies </li>
+                                        <li> Try to Make New Thinks </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single-contents">
+                                <div class="contents-para-left">
+                                    <h6 class="contents-para"> Social Media </h6>
+                                </div>
+                                <div class="contents-para-right">
+                                    <ul class="details-content-list details-social-list">
+                                        <li>
+                                            <a href="javascript:void(0)"> <i class="lab la-facebook-f"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)"> <i class="lab la-instagram"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)"> <i class="lab la-pinterest"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)"> <i class="lab la-vimeo"></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-4 mt-5 mt-lg-0">
+                    <div class="doctor-details-right">
+                        <form action="#" class="search-form">
+                            <input class="form--control form-control" type="text" name="search" placeholder="Type Keyword">
+                            <button type="submit"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                        </form>
+                        <div class="single-right-details">
+                            <h5 class="single-right-title"> Others Doctors </h5>
+                            <ul class="details-right-list">
+                                <li><a href="javascript:void(0)"> Dr. Khaled Hossen </a></li>
+                                <li><a href="javascript:void(0)"> Dr. Murad Khan </a></li>
+                                <li><a href="javascript:void(0)"> Dr. Marina Yigo </a></li>
+                                <li><a href="javascript:void(0)"> Dr. Ahosan Habib </a></li>
+                                <li><a href="javascript:void(0)"> Dr. Naziur Rahman </a></li>
+                            </ul>
+                        </div>
+                        <div class="single-right-details">
+                            <h5 class="single-right-title"> Appoinment </h5>
+                            <div class="appoinment-form">
+                                <form action="#" class="custom-form">
+                                    <div class="single-appoinment">
+                                        <select>
+                                            <option value="1">Select Depertment</option>
+                                            <option value="2">Cardiology</option>
+                                            <option value="3">Neurology</option>
+                                            <option value="4">Paediaterics</option>
+                                            <option value="5">Pahtology</option>
+                                        </select>
+                                    </div>
+                                    <div class="single-appoinment">
+                                        <select>
+                                            <option value="1">Select Doctor</option>
+                                            <option value="2">Select Doctor</option>
+                                            <option value="3">Select Doctor</option>
+                                            <option value="4">Select Doctor</option>
+                                            <option value="5">Select Doctor</option>
+                                        </select>
+                                    </div>
+                                    <div class="single-appoinment">
+                                        <input class="form--control form-control" type="text" name="name" placeholder="Full Name">
+                                    </div>
+                                    <div class="single-appoinment">
+                                        <input class="form--control form-control" type="number" name="number" placeholder="Phone Number">
+                                    </div>
+                                    <div class="single-appoinment">
+                                        <input class="form--control form-control" type="text" name="date" placeholder="Appoinment Date">
+                                    </div>
+                                    <button type="submit"> BOOK YOUR APPOINMENT </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- =====>> Doctors Area End <<===== 
+    =========================== -->
+    <!-- =====>> Brands Area Starts <<===== 
+    =========================== -->
+    <!-- <div class="brands-area">
+        <div class="container">
+            <div class="brands-wrapper">
+                <div class="brands-slider">
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands1.png" alt=""> </a>
+                    </div>
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands2.png" alt=""> </a>
+                    </div>
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands3.png" alt=""> </a>
+                    </div>
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands4.png" alt=""> </a>
+                    </div>
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands5.png" alt=""> </a>
+                    </div>
+                    <div class="single-brands">
+                        <a class="brand-img" href="javascript:void(0)"> <img src="assets/img/home/brands3.png" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- =====>> Brands Area End <<===== 
+    =========================== -->
+    <!-- =====>> Footer Area Starts <<===== 
+    =========================== -->
+    <footer class="footer-area bg--footer">
+        <div class="footer-top pt-100 pb-120">
+            <div class="container">
+                <div class="row justify-content-between justify-content-lg-start">
+                    <div class="col-lg-4 col-md-7 col-sm-8 mt-4">
+                        <div class="single-footer">
+                            <h4 class="common-title"> About Company </h4>
+                            <div class="about-contents">
+                                <p class="common-para"> Since the inspection of this hospital, it has lived up to that dream, and has built a stellar reputation for complete care-giving. Not only have the most renowned specialists been brought together here
+                                </p>
+                                <ul class="footer-socials">
+                                    <li>
+                                        <a href="javascript:void(0)"> <i class="lab la-facebook-f"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)"> <i class="lab la-twitter"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)"> <i class="lab la-instagram"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)"> <i class="lab la-linkedin-in"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 mt-4">
+                        <div class="single-footer">
+                            <h4 class="common-title"> Quick Links </h4>
+                            <div class="about-contents">
+                                <ul class="footer-list">
+                                    <li><a href="javascript:void(0)"> About </a></li>
+                                    <li><a href="javascript:void(0)"> Our Services </a></li>
+                                    <li><a href="javascript:void(0)"> Our Mission </a></li>
+                                    <li><a href="javascript:void(0)"> Find Doctor </a></li>
+                                    <li><a href="javascript:void(0)"> Appoinment </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 mt-4">
+                        <div class="single-footer">
+                            <h4 class="common-title"> Our Services </h4>
+                            <div class="about-contents">
+                                <ul class="footer-list">
+                                    <li><a href="javascript:void(0)"> Cardiology </a></li>
+                                    <li><a href="javascript:void(0)"> Outpatient </a></li>
+                                    <li><a href="javascript:void(0)"> Gynaecological </a></li>
+                                    <li><a href="javascript:void(0)"> Paediaterics </a></li>
+                                    <li><a href="javascript:void(0)"> Laboratory </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 mt-4">
+                        <div class="single-footer">
+                            <h4 class="common-title"> Terms </h4>
+                            <div class="about-contents">
+                                <ul class="footer-list">
+                                    <li><a href="javascript:void(0)"> Announcement </a></li>
+                                    <li><a href="javascript:void(0)"> Privacy Policy </a></li>
+                                    <!-- <li><a href="javascript:void(0)"> Term Of Service </a></li> -->
+                                    <li><a href="javascript:void(0)"> Refund Policy </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 mt-4">
+                        <div class="single-footer">
+                            <h4 class="common-title"> Support </h4>
+                            <div class="about-contents">
+                                <ul class="footer-list">
+                                    <li><a href="javascript:void(10)"> F.A.Q </a></li>
+                                    <li><a href="javascript:void(0)"> Get Support </a></li>
+                                    <li><a href="javascript:void(0)"> Our Forum </a></li>
+                                    <li><a href="javascript:void(0)"> Contact Us </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
+                        <p class="copyright-text">Copyright © 2023. KGN Hospital. All rights reserved</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mt-4 mt-md-0 text-right">
+                        <p class="copyright-text">
+                         <a href="https://wingstarnarketing.com/">Developed by Star Marketing</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =====>> Footer Area End <<===== 
+    =========================== -->
+    <!-- =====>> Scroll top <<===== 
+    =========================== -->
+    <a href="#" class="scroll-top show" id="scroll-top">
+        <i class="arrow-top las la-angle-up"></i>
+        <i class="arrow-bottom las la-angle-double-up"></i>
+    </a>
+
+    <!-- =====>> End Scroll top <<===== 
+    =========================== -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/odometer.js"></script>
+    <script src="assets/js/viewport.jquery.js"></script>
+    <script src="assets/js/paroller.js"></script>
+    <script src="assets/js/jquery.lineProgressbar.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+
+
+</body>
+
+</html>
